@@ -21,6 +21,6 @@ def game_one():
 		elif guessNumber == randomNumber:
 			print ("You win!: ")
 			print randomNumber
-			print 'Count of guesses you have taken was {0}'.format(randomNumber)
+			print 'Count of guesses you have taken was {0}'.format(count)
 			return False
 game_one ()	
